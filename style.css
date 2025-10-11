@@ -1,12 +1,49 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 .project-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .project-card:hover {
     transform: translateY(-5px);
 }
+
 .hexagon-clip {
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.bio-highlight {
+    position: relative;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.skill-badge {
+    animation: float 3s ease-in-out infinite;
+}
+
+.skill-badge:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.skill-badge:nth-child(3) {
+    animation-delay: 1s;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
 }
