@@ -3,11 +3,32 @@ body {
 }
 
 .project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
+}
+
+/* Ensure card content takes up available space */
+.project-card>div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Make the description area grow to push buttons to bottom */
+.project-card .description-area {
+    flex-grow: 1;
+}
+
+/* Ensure buttons stay at the bottom */
+.project-card .button-container {
+    margin-top: auto;
+    padding-top: 1rem;
 }
 
 .hexagon-clip {

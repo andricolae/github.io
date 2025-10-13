@@ -1,93 +1,149 @@
 [
     {
         "title": "Loan Calculator",
-        "description": "This is an Angular app that works as a Loan Calculator. All the simulations a user makes are stored in Local Storage and the user can edit and delete a simulation. The app uses PWA functionality and users can install this app on their mobile devices or PCs as a standalone app.",
+        "description": "This is an Angular app that works as a Loan Calculator. All the simulation a user makes are stored in the Local Storage and the user can edit and delete a simulation. The app uses PWA functionality and the users can install this app on their mobile devices or on PC's as a standalone app. ",
         "technologies": "Angular, Typescript, TailwindCSS, PWA",
         "liveLink": "https://loan-calculator-blond.vercel.app/",
         "githubLink": "https://github.com/andricolae/loan-calculator"
     },
     {
         "title": "Course Scheduler",
-        "description": "Works together with the School Manager App. This app receives requests via an API from the school manager app to schedule sessions for newly added courses. School admins can schedule all sessions, check for conflicts, and send back the schedule via API to the school manager app.",
+        "description": "Works together with the School Manager App, this app receives requests via an API from the school manager app to schedule the sessions for a newly added course. In this app the school admin can schedule all the sessions and check for conflicts and can send back the schedule via the API to the school manager app.",
         "technologies": "Angular, Typescript, Firebase, TailwindCSS",
         "liveLink": "https://course-scheduler-cyan.vercel.app/home",
         "githubLink": "https://github.com/andricolae/course-scheduler.git"
     },
     {
         "title": "School Manager",
-        "description": "An Angular project for teachers, students, and school admins to track school activities. Teachers can grade students and mark attendance. Students can enroll in classes, attend them, and view their grades. School admins can manage and see an overview of everything.",
+        "description": "An Angular project for teachers,  students and school admins to track the activity inside a school. Teachers can grade students and mark them absent or present. Students can enroll and attend classes, also they can see their grades and school admins can manage and see an overview of everything.",
         "technologies": "Angular, Typescript, Firebase, TailwindCSS",
         "liveLink": "https://school-mngr.vercel.app/home",
         "githubLink": "https://github.com/andricolae/school-mngr.git"
     },
     {
         "title": "Expense Tracker",
-        "description": "An Angular team project that helps you track your expenses and add them by scanning receipts.",
+        "description": "An Angular team project that helps you track your expenses and add them by scanning a receipt.",
         "technologies": "Angular, Typescript, Firebase",
         "liveLink": "https://expense-tracker-ntt.vercel.app/",
         "githubLink": "https://github.com/andricolae/expense-tracker.git"
     },
     {
         "title": "Angular Template Page",
-        "description": "A template project for Angular that uses authentication, routing, guards, and translation features.",
+        "description": "A template project for an Angular project that uses authentication, routing, guards and translation.",
         "technologies": "Angular, Typescript, Firebase",
         "liveLink": "https://angular-template-page.vercel.app/auth",
         "githubLink": "https://github.com/andricolae/angular-template-page"
     },
     {
         "title": "Sports Tracker",
-        "description": "An Angular project with responsive design to track scores in various sports.",
+        "description": "An Angular project with responsive design to track score in various sports.",
         "technologies": "Angular, Typescript",
         "liveLink": "https://github.com/andricolae/sports-tracker",
         "githubLink": "https://andricolae.github.io/sports-tracker/"
     },
     {
         "title": "Personal Dashboard",
-        "description": "A dashboard-type web app. In this team project, I built the currency converter feature.",
+        "description": "A comprehensive personal dashboard web application featuring real-time weather information, currency exchange rates, and daily schedule management. Developed as a collaborative team project where I specifically designed and implemented the currency converter module with live API integration for accurate exchange rates.",
         "technologies": "HTML, CSS, JavaScript",
         "liveLink": "https://andricolae.github.io/personal-dashboard/",
         "githubLink": "https://github.com/andricolae/personal-dashboard"
     },
     {
-        "title": "Coming Soon Page",
-        "description": "A 'Coming Soon' page for projects in development.",
-        "technologies": "HTML, CSS, JavaScript",
-        "liveLink": "https://andricolae.github.io/coming-soon/",
-        "githubLink": "https://github.com/andricolae/coming-soon.git"
-    },
-    {
-        "title": "Timekeeping & HR App",
-        "description": "An application for managing timekeeping and human resources.",
+        "title": "Timekeeping & HR Management",
+        "description": "An innovative timekeeping and HR solution designed to simplify and streamline all aspects of employee management. This intuitive application provides tools for tracking work hours, managing human resources, monitoring employee attendance, and improving team productivity.",
         "technologies": "HTML, CSS, JavaScript",
         "liveLink": "https://andricolae.github.io/pontajhr/",
         "githubLink": "https://github.com/andricolae/pontajhr.git"
     },
     {
-        "title": "Flex vs. Grid",
-        "description": "A comparison between Flexbox and Grid layouts.",
-        "technologies": "HTML, CSS",
-        "liveLink": "https://andricolae.github.io/flex-v-grid/",
-        "githubLink": "https://github.com/andricolae/flex-v-grid.git"
-    },
-    {
         "title": "Tip Calculator",
-        "description": "A tip calculator with a random generator to decide which friend pays the bill.",
+        "description": "A practical and interactive tip calculator designed for dining experiences. Enter your bill amount and select service quality percentage to instantly calculate the appropriate tip and total amount. Features an entertaining random generator function that fairly selects which friend should pay the bill, adding a fun element to group dining decisions and social gatherings.",
         "technologies": "HTML, CSS, JavaScript",
         "liveLink": "https://andricolae.github.io/tips/",
         "githubLink": "https://github.com/andricolae/tips.git"
     },
     {
-        "title": "Hamburger Menu",
-        "description": "A simple responsive hamburger menu.",
-        "technologies": "HTML, CSS, JavaScript",
-        "liveLink": "https://andricolae.github.io/hamburger-menu/",
-        "githubLink": "https://github.com/andricolae/hamburger-menu.git"
-    },
-    {
         "title": "Currency Converter",
-        "description": "A simple currency converter that fetches data from an API.",
-        "technologies": "HTML, CSS, JavaScript",
+        "description": "A real-time currency converter that fetches live exchange rates from an external API. Supports multiple currencies and provides instant conversions for travelers, businesses, and anyone needing quick currency calculations.",
+        "technologies": "HTML, CSS, JavaScript, API Integration",
         "liveLink": "https://andricolae.github.io/currency/",
         "githubLink": "https://github.com/andricolae/currency.git"
+    },
+    {
+        "title": "Next.js School Manager",
+        "description": "A modern school management system built with Next.js and React. Features server-side rendering, optimized performance, and a seamless user experience for managing students, teachers, courses, and academic activities.",
+        "technologies": "Next.js, React, TypeScript, TailwindCSS",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/next-js-school-mngr"
+    },
+    {
+        "title": "E-Vites",
+        "description": "An event invitation platform for creating and managing digital invitations. Users can design custom e-vites, track RSVPs, and send invitations for various events including weddings, parties, and corporate gatherings.",
+        "technologies": "TypeScript, Angular, Firebase",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/e-vites"
+    },
+    {
+        "title": "Angular School Manager",
+        "description": "A comprehensive school management system with advanced features for educational institutions. Includes modules for student enrollment, teacher management, course scheduling, grade tracking, and administrative oversight.",
+        "technologies": "Angular, TypeScript, Firebase, TailwindCSS",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/angular-school-mngr"
+    },
+    {
+        "title": "Polling System",
+        "description": "A real-time polling and voting application that allows users to create polls, share them with participants, and view live results. Features include multiple question types, anonymous voting options, and result analytics.",
+        "technologies": "HTML, CSS, JavaScript, Firebase",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/polling-system"
+    },
+    {
+        "title": "Task Management API",
+        "description": "A RESTful API backend for task management applications. Provides endpoints for creating, updating, and organizing tasks with user authentication, task prioritization, and deadline management features.",
+        "technologies": "Node.js, Express, JavaScript, MongoDB",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/task-mgmt-api"
+    },
+    {
+        "title": "Oracle JET Shop",
+        "description": "An e-commerce web application built with Oracle JavaScript Extension Toolkit (JET). Features product catalog, shopping cart functionality, checkout process, and order management system.",
+        "technologies": "Oracle JET, JavaScript, Knockout.js, RESTful API",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/ojet-shop"
+    },
+    {
+        "title": "Investment Tracker",
+        "description": "A financial portfolio management application for tracking investments, stocks, and assets. Provides real-time portfolio valuation, performance analytics, profit/loss calculations, and investment insights.",
+        "technologies": "Angular, TypeScript, Chart.js, Firebase",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/investment-tracker"
+    },
+    {
+        "title": "Face Recognition App",
+        "description": "A machine learning application that performs facial recognition and detection. Uses computer vision algorithms to identify faces in images, suitable for security systems and attendance tracking.",
+        "technologies": "JavaScript, Face-API.js, TensorFlow.js, HTML5",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/face_rec"
+    },
+    {
+        "title": "CRM System",
+        "description": "A customer relationship management system built with Java. Manages customer data, sales pipelines, contact information, and business interactions with a robust backend architecture.",
+        "technologies": "Java, Spring Boot, MySQL, Hibernate",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/CRM"
+    },
+    {
+        "title": "8-Puzzle AI Solver",
+        "description": "An artificial intelligence project that solves the classic 8-puzzle problem using search algorithms. Implements A* search, heuristics, and pathfinding to find optimal solutions efficiently.",
+        "technologies": "Python, AI Algorithms, NumPy",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/8puzzleAI"
+    },
+    {
+        "title": "LEGO Store",
+        "description": "An e-commerce platform for LEGO products with product browsing, shopping cart, user authentication, and order management. Features a clean interface for exploring and purchasing LEGO sets.",
+        "technologies": "PHP, MySQL, HTML, CSS, JavaScript",
+        "liveLink": "",
+        "githubLink": "https://github.com/andricolae/lego_store"
     }
 ]
